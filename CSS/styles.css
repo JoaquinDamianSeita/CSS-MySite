@@ -1,0 +1,165 @@
+
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    color: #40514E;
+    text-emphasis: bold;
+    line-height: 2;
+}
+
+hr {
+    margin: 100px auto;
+    border-style: none;
+    border-top: 15px dotted #EAF6F6;
+    width: 10%;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px 30px;
+}
+
+a:hover {
+    color: #bff8fa;
+}
+
+
+
+h1 {
+    color: #66BFBF;
+    margin-top: 50px auto 0 auto;
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    
+}
+h3 {
+    color: #11999E;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+.middle-container {
+    background-color: #ffffff;
+    margin: 100px auto;
+}
+
+.middle-container .profile {
+    margin: auto;
+    width: 40%;
+}
+
+.middle-container .profile .profile-photo {
+    width: 30%;
+}
+
+.middle-container .skills .skill-row {
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.middle-container .skills .skill-row .computer-img{
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.middle-container .skills .skill-row .chillies-img{
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.contact-me {
+    margin: 100px auto 100px auto;
+}
+
+.mensaje-contacto {
+    margin: 40px auto 60px;
+    width: 30%;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.bottom-container .footer-link {
+    color: #11999E;
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 15px;
+    color: #ffffff;
+    padding: 30px auto 20px;
+}
+
+
+.top-cloud {
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 320px;
+    left: 350px;
+}
+
+.contact-btn {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 15px;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .contact-btn:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
